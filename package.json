@@ -1,0 +1,15 @@
+{
+  "name": "algorithm-missing-letters",
+  "version": "1.0.0",
+  "description": "Solution and testing for missing letters algorithm",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node solution.js"
+  },
+  "author": "Ben Berry",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
