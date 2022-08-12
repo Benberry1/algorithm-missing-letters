@@ -5,6 +5,7 @@
   "main": "solution.js",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watchAll",
     "start": "node solution.js"
   },
   "author": "Ben Berry",
