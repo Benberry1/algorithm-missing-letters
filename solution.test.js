@@ -27,4 +27,14 @@ describe("Missing letters function", () => {
       expect(result).toBe(expected);
     }
   );
+
+  test("WHEN no parameter is passed to missingLetters THEN an error of 'Please provide a valid string' is returned", () => {
+    expect(() => missingLetters()).toThrow("Please provide a valid string");
+  });
+
+  test('WHEN a parameter is passed that is NOT a string THEN an error of "Please provide a valid string" is returned', () => {
+    expect(() => missingLetters(123456)).toThrow(
+      "Please provide a valid string"
+    );
+  });
 });
