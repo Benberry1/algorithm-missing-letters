@@ -1,4 +1,7 @@
 const missingLetters = (str) => {
+  if (!str || typeof str !== "string") {
+    throw new Error("Please provide a valid string");
+  }
   let missingLetter;
 
   let charCode = str.charCodeAt(0);
